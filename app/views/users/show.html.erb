@@ -1,0 +1,5 @@
+<h1>プロフィール</h1>
+<% if user_signed_in? %>
+    <h3>メールアドレス</h3>
+    <%= @user.email %> 
+<% end %>
